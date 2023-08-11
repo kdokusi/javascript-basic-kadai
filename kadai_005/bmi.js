@@ -1,10 +1,9 @@
-let bodyWeigth = 68;
 
-let myFloat= 1.7;
+let bodyWeigth = '68';
 
-kasan = myFloat * myFloat;
-console.log(1.7*1.7)
+let myFloat = '1.7';
+
+let bmi = bodyWeigth / (myFloat * myFloat);
  
-myFloat = 2.89
-console.log(68/2.8899999999999997)
 
+console.log (bmi) == bodyWeigth / (myFloat * myFloat);
