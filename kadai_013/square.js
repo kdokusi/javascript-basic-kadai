@@ -1,5 +1,6 @@
-const square = (num)=> {
-  return num *2
+const square = (num,x)=> {
+
+  console.log(num **x);
 }
 
-console.log(square(50));
+square(10,2);
